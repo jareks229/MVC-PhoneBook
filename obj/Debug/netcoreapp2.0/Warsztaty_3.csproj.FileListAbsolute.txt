@@ -1,0 +1,11 @@
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\bin\Debug\netcoreapp2.0\Warsztaty_3.deps.json
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\bin\Debug\netcoreapp2.0\Warsztaty_3.runtimeconfig.json
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\bin\Debug\netcoreapp2.0\Warsztaty_3.runtimeconfig.dev.json
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\bin\Debug\netcoreapp2.0\Warsztaty_3.dll
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.csprojAssemblyReference.cache
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.csproj.CoreCompileInputs.cache
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.AssemblyInfoInputs.cache
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.AssemblyInfo.cs
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\bin\Debug\netcoreapp2.0\Warsztaty_3.pdb
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.dll
+C:\Users\Wiesia\Desktop\Kurs\CSharp Zadania\Warsztaty_3\Warsztaty3\Warsztaty_3\obj\Debug\netcoreapp2.0\Warsztaty_3.pdb

@@ -1,0 +1,85 @@
+﻿@using Warsztaty_3.Models
+@model List<PersonModel>
+
+<h2>Witaj w programie do obsługi książki telefonicznej !</h2>
+@Html.ActionLink("Dodaj klienta", "Create", "Person",new { }, new {@class="btn btn-primary" })
+
+<div class="row">
+<div class="col-md-4">
+    <form asp-action="Index" asp-controller="Person" method="get">
+        <div class="form-group">
+            <label class="control-label">Wyszukaj nazwisko</label>
+            <input type="text" name="FilterLastName" class="form-control" value="@ViewBag.FilterLastName" />
+            <input type="hidden" name="page" value="1" />
+        </div>
+        <div class="form-group">
+            </div>
+        <input type="submit" value="Wyszukaj" class="btn btn-default" />
+    </form>
+</div>
+</div>
+
+<h2>Aktualne wpisy:</h2>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Numer telefonu</th>
+                <th>EMail</th>
+                <th>Dodano</th>
+                <th>Zmodyfikowano</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        @foreach (var line in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => line.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.Created)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => line.Updated)
+                </td>
+                <td>
+                    @Html.ActionLink("Edytuj", "Edit", "Person", new { id = line.ID })
+                    @Html.ActionLink("Usuń", "Delete", "Person", new { id = line.ID })
+                </td>
+            </tr>
+        }
+
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="8" class="text-center">
+                <div class="btn-group" role="group" aria-label="Strony">
+                    @for (var i = 1; i <= ViewBag.Pages; i++)
+                    {
+                        <a href="?page=@i" class="btn @(i == (int) ViewBag.Page ? "btn-primary" : "btn-default")">@i</a>
+                    }
+                </div>
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
